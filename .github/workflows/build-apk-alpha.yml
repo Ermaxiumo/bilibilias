@@ -1,4 +1,4 @@
-7name: Build Compose APK (Alpha)
+7name: Build Compose APK (Alpha) 
 
 on:
   push:
@@ -36,4 +36,4 @@ jobs:
 
       - name: Assemble alphaRelease
         run: ./gradlew :app:assembleAlphaRelease --stacktrace --info
-#
+# 触发编译

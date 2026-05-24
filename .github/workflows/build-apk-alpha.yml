@@ -36,4 +36,4 @@ jobs:
 
       - name: Assemble alphaRelease
         run: ./gradlew :app:assembleAlphaRelease --stacktrace --info
-# 触发编译
+
